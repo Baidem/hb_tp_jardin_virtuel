@@ -11,7 +11,7 @@ public class Jardin {
     private Emplacement[][] emplacements;
     private HashMap<String, Integer> panier;
 
-    public Jardin(int longueur, int largeur) {
+    public Jardin(final int longueur, final int largeur) {
         this.longueur = longueur;
         this.largeur = largeur;
         this.panier = new HashMap<String, Integer>();
