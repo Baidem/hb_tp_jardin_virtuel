@@ -1,5 +1,6 @@
 package entities;
 
+import Flore.Etat;
 import Flore.Vegetal;
 
 public class Emplacement {
@@ -11,5 +12,10 @@ public class Emplacement {
 
     public Vegetal getVegetal() {
         return vegetal;
+    }
+
+    @Override
+    public String toString() {
+        return vegetal.toString();
     }
 }
